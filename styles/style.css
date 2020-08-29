@@ -1,0 +1,306 @@
+body{
+	background: #222222;
+	margin: 0;
+	font-family: "roboto"
+}
+@font-face{
+	font-family: "BrushScriptStd";
+	src:url(../fonts/BrushScriptStd.otf);
+}
+@font-face{
+	font-family: "roboto";
+	src:url(../fonts/Roboto-Regular.ttf);
+}
+/*Social media*/
+.socialm{
+	background: black;
+	text-align: center;
+	height: 35px;
+	padding-top: 10px;
+}
+.socialm>nav>span{
+	color: #1E90FF;
+	font-size: 25px;
+}
+.socialm>nav>a{
+	color: #1E90FF;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 40px;
+	padding: 10px;
+	padding-bottom: 0;
+}
+.socialm>nav>a:hover{
+	border-bottom: 4px solid red;
+}
+/*Social media*/
+
+/*navigator panel*/
+#navpan{
+	background: rgba(0,0,0,0.5);
+	backdrop-filter:blur(1px);
+	position: sticky;
+	top: 0;
+}
+#navpan>span{
+	font-size:50px;
+	color: yellow;
+	margin-left: 11px;
+	font-family: "BrushScriptStd";
+}
+#navpan>button{
+	font-size: 25px;
+	color:white;
+	background: none;
+	border:1px solid silver;
+	margin-top:15px;
+	margin-right: 9px;
+	float: right;
+	cursor: pointer;
+}
+#navpan>button>a{
+	color: white;
+	text-decoration: none;
+}
+/*navigator panel*/
+/*header*/
+header{
+	background: url("../images/backgrounds/header.jpg");
+	width: 100%;
+	height:680px;
+	text-align: center;
+}
+#bg{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.5);
+}
+header img{
+	width: 300px;
+	margin-top: 20px;
+}
+header .shior{
+	width: 40%;
+	margin: auto;}
+	header .shior>p{
+	font-family: "BrushScriptStd";
+	font-size: 40px;
+	color: white;
+}
+#stats{
+	width: 95%;
+    color: yellow;
+	 }
+.users{
+	float: left;
+margin-left: 50px;
+}
+.courses{
+	float: right;
+}
+/*header*/
+/*kurslar*/
+.kurslar{
+	background: black;
+	padding: 20px;
+	box-shadow: 0 -50px 50px 50px black;
+}
+.kurslar>div{
+	width: 250px;
+	border: 2px solid white;
+	padding: 10px;
+	display: inline-block;
+	margin-right: 45px;
+} 
+.kurslar>div>img{
+	width: 100%;
+	margin-left: 23%;
+}
+.kurslar>div>li{
+	color: white;
+	font-size: 20px;
+}
+/*kurslar*/
+
+/*maqolalar*/
+.aboutproject{
+	padding: 10px;
+	color: white;
+}
+.aboutproject>h1{
+	font-family: "BrushScriptStd";
+	font-size: 40px;
+}
+.aboutproject>img{
+	width: 400px;
+	float: left;
+}
+.aboutproject>p{
+	font-family: "roboto";
+	font-size:20px;
+	text-align: justify;
+}
+.dasturlashhaqida{
+	padding: 10px;
+	color: white;
+	margin-top: 200px;
+}
+.dasturlashhaqida>h1{
+	font-family: "BrushScriptStd";
+	text-align: right;
+	font-size: 40px;
+}
+.dasturlashhaqida>img{
+	width: 400px;
+	float: right;
+}
+.dasturlashhaqida>p{
+	font-family: "roboto";
+	font-size:20px;
+}
+/*maqolalar tugadi*/
+.sayt-bolimlari{
+	margin-top: 20px;
+	padding: 30px;
+}
+.sayt-bolimlari h2{
+	color:green;
+	text-align: center;
+}
+.sayt-bolimlari>div{
+	width: 30%;
+	text-align: justify;
+	display: inline-block;
+	margin-right: 20px;
+}
+.sayt-bolimlari>div>img{
+	width: 100%;
+}
+.sayt-bolimlari>div>p{
+	font-size: 20px;
+	color: white;
+	font-family: "roboto";
+}
+.saytparts{
+	margin-top: 200px;
+text-align: center;
+color: green;
+}
+footer{
+	height: 30px;
+	margin-top: 20px;
+	background: black;
+    width:100%;
+    color: yellow;
+    text-align: center;
+    line-height: 30px;
+}
+/*responsive*/
+@media screen and (max-width:768px){
+/*Social media*/
+.socialm{
+	height: 35px;
+	padding-top: 10px;
+}
+.socialm>nav>span{
+	color: #1E90FF;
+	font-size: 25px;
+}
+.socialm>nav>a{
+	font-size: 20px;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+/*Social media*/
+/*header*/
+header img{
+	width: 200px;
+	margin-top: 20px;
+}
+header .shior{
+	width: 80%;
+	margin: auto;
+}
+header .shior>p{
+	font-size:  30px;
+}
+.users{
+	margin:auto;
+	float: none;
+}
+.courses{
+	margin:auto;
+	float: none;
+}
+/*header*/
+/*kurslar*/
+.kurslar>div{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+} 
+.kurslar>div>img{
+	width: 100%;
+	margin-left: 23%;
+}
+.kurslar>div>li{
+	color: white;
+	font-size: 20px;
+}
+/*kurslar*/
+/*maqolalar*/
+.aboutproject{
+	text-align: center;
+}
+.aboutproject>h1{
+	font-size: 30px;
+}
+.aboutproject>img{
+	width: 80%;
+	float:none;
+}
+.aboutproject>p{
+	font-family: "roboto";
+	font-size:20px;
+	text-align: justify;
+}
+.dasturlashhaqida{
+text-align: center;
+margin-top: 20px;
+}
+.dasturlashhaqida>h1{
+	font-family: "BrushScriptStd";
+	text-align: center;
+	font-size: 30px;
+}
+.dasturlashhaqida>img{
+	width: 300px;
+	float: none;
+}
+.dasturlashhaqida>p{
+	font-family: "roboto";
+	font-size:20px;
+	text-align: justify;
+}
+/*maqolalar tugadi*/
+
+.sayt-bolimlari>div{
+	width: 95%;
+	text-align: justify;
+	display: block;
+	margin: auto;
+	margin-right: 20px;
+}
+.sayt-bolimlari>div>img{
+	width: 100%;
+}
+.sayt-bolimlari>div>p{
+	font-size: 20px;
+	color: white;
+	font-family: "roboto";
+}
+.saytparts{
+	margin-top: 20px;
+
+}

@@ -1,0 +1,68 @@
+body{
+	background: black;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	
+}
+.box1{
+	 margin: auto;
+  width: 28%;
+  border: 3px solid none;
+  padding: 10px;
+  background:  #222222;
+height: 430px;
+box-shadow: 0 0 10px 3px grey;
+align-items: center;
+}
+img{
+	width: 100px;
+}
+.user, #psword{
+	width: 70%;
+	padding: 17px;
+	margin: 8px;
+	border: none;
+	background: #f2f2f2;
+	color: grey;
+	opacity: 0.9;
+}
+button{
+	width: 79%;
+	padding: 17px;
+	margin: 8px;
+	border: none;
+	background: #4caf50;
+	color: white;
+}
+#anchor{
+	padding-top: 5px;
+	color: #c6beba;
+	font-size: 15px;
+}
+.link{
+	padding-top: 5px;
+	color: blue;
+	font-size: 15px;
+	text-decoration: none;
+}
+p{
+	padding-top: 10px;
+}
+.user, #psword:active{
+	opacity: 1;
+	color: black;
+}
+@media screen and (max-width:768px){
+.box1{
+  width: 80%;
+  border: 3px solid none;
+  padding: 10px;
+  background:  #222222;
+height: 430px;
+box-shadow: 0 0 10px 3px grey;
+align-items: center;
+}
+
+
+}
